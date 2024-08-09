@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Management</title>
+    <!-- daisy ui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/6784d1998e.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    
+    <nav class="max-w-[1300px] mx-auto">
+        <div class= "flex items-center justify-between">
+            <div class="flex items-center cursor-pointer">
+                <img class="w-10 sm:w-20" src="images/logo/logo.png" alt="">
+                <h2 class="font-bold">Course.io</h2>
+            </div>
+            <div class=" hidden md:w-[300px] sm:mr-3 sm:flex justify-between items-center rounded-xl border">
+                <input class=" py-2 outline-none px-5" type="text" placeholder="search for course">
+                <i class="fa-solid fa-magnifying-glass pr-3"></i>
+            </div>
+            <div class="hidden lg:block">
+                <h2>Become Instructor</h2>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-8 flex items-center">
+                    <i class="fa-solid fa-cart-shopping text-xl mr-8 cursor-pointer"></i>
+                    <button class="border-2 px-3 py-2 font-semibold rounded-xl hover:bg-slate-100">Login</button>
+                </div>
+                <div class="bg-green-600 hover:bg-green-500 sm:mr-2 sm:w-[120px] px-4 text-white font-bold rounded-xl py-2">
+                    <i class="fa-solid fa-moon"></i>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+                
+        </div>
+    </nav>
 </body>
 </html>
