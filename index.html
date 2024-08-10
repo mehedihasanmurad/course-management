@@ -13,13 +13,14 @@
 
 </head>
 <body>
-    <nav class="max-w-[1300px] mx-auto my-4">
+    <nav class="max-w-[1300px] mx-auto my-2 sticky top-0 shadow-2xl bg-slate-50 z-30">
+        
         <div class= "flex items-center justify-between">
             <div class="flex items-center cursor-pointer">
                 <img class="w-10 sm:w-20" src="images/logo/logo.png" alt="">
                 <h2 class="font-bold">Course.io</h2>
             </div>
-            <div class=" hidden md:w-[300px] sm:mr-3 sm:flex justify-between items-center rounded-xl border">
+            <div class=" hidden md:w-[300px] sm:mr-3 sm:flex justify-between items-center rounded-2xl border-2">
                 <input class=" py-2 outline-none px-5" type="text" placeholder="search for course">
                 <i class="fa-solid fa-magnifying-glass pr-3"></i>
             </div>
@@ -29,7 +30,7 @@
             <div class="flex items-center">
                 <div class="mr-8 flex items-center">
                     <i class="fa-solid fa-cart-shopping text-xl mr-8 cursor-pointer"></i>
-                    <button class="border-2 px-3 py-2 font-semibold rounded-xl hover:bg-slate-100">Login</button>
+                    <button class="border-2 px-3 py-2 font-semibold rounded-xl hover:bg-slate-200">Login</button>
                 </div>
                 <div class="bg-green-600 hover:bg-green-500 sm:mr-2 sm:w-[120px] px-4 text-white font-bold rounded-xl py-2">
                     <i class="fa-solid fa-moon"></i>
@@ -41,44 +42,141 @@
     </nav>
 
     <header class="max-w-[1300px] mx-auto">
-        <div class="carousel">
-            <div id="slide1" class="carousel-item relative w-full">
-                <img
-                src="https://res.cloudinary.com/dgamcpb88/image/upload/v1723277566/Course%20management/y1y991dqifdgv5adhfhr.jpg"
-                class="w-full h-80 lg:h-2/4 rounded-xl" />
-                <div class="absolute left-5 right-5 hidden lg:top-52 lg:flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
+        <div class="hero h-[450px]" style="background-image: url(https://res.cloudinary.com/dgamcpb88/image/upload/v1723280599/Course%20management/ehtrr68mx23tg9edg9bx.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+           <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-3xl font-bold">Learn something new everyday.</h1>
+                    <p class="mb-5">Become professionals and ready to join the world.</p>
+                    <button class="btn hover:btn-info">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 text-red-600"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                        Love Coding
+                    </button>
                 </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img
-                src="https://res.cloudinary.com/dgamcpb88/image/upload/v1723277962/Course%20management/pkstiqtmsuexfn4kbwss.jpg"
-                class="w-full h-80  lg:h-2/4 rounded-xl"/>
-                <div class="absolute left-5 right-5 hidden lg:top-52 lg:flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <img
-                src="https://res.cloudinary.com/dgamcpb88/image/upload/v1723277626/Course%20management/ytvsyzlncqqtrnktllye.jpg"
-                class="w-full h-80 lg:h-2/4 rounded-xl"/>
-                <div class="absolute left-5 right-5 hidden lg:top-52 lg:flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img
-                src="https://res.cloudinary.com/dgamcpb88/image/upload/v1723277816/Course%20management/vmzshmwiqbrc1pq9jrst.jpg"
-                class="w-full h-80 lg:h-2/4 rounded-xl"/>
-                <div class="absolute left-5 right-5 hidden lg:top-52 lg:flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
-            </div>
+            </div> 
         </div>
     </header>
+
+    <div class="max-w-[1300px] mx-auto sm:flex sm:flex-wrap gap-2 my-14 cursor-pointer">
+        <h1 class="border border-green-400 rounded-xl text-green-400 py-2 px-4 mb-3 text-center">All Recommendation</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Adobe Illustrator</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Adobe Photoshop</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">UI Design</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Web Programming</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Mobile Programming</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Backend Development</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Vue JS</h1>
+    </div>
+
+    <main class="max-w-[1300px] mx-auto">
+        <section>    
+            <div>
+                <h3 class="text-xl font-bold">More from Kitani Studio</h3>
+                <p class="mb-4 text-gray-500">We know the best things for You.  Top picks for You.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 1.jpg" alt="">
+                    <h2 class="font-bold my-2">VUE JS SCRATCH COURSE</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$24.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder .jpg" alt="">
+                    <h2 class="font-bold my-2">UI DESIGN FOR BEGINNERS</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">Learn how to make web application with Vue.js Framework.</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$64.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 2.jpg" alt="">
+                    <h2 class="font-bold my-2">MOBILE DEV REACT NATIVE</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>74.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 4.jpg" alt="">
+                    <h2 class="font-bold my-2">WEBSITE DEV ZERO TO HERO</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$84.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+            </div>
+                
+            
+        </section>
+    </main>
 </body>
 </html>
