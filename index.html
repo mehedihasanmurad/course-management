@@ -13,12 +13,13 @@
 
 </head>
 <body>
-    <nav class="max-w-[1300px] mx-auto my-2 sticky top-0 shadow-2xl bg-slate-50 z-30">
+    <!-- ....................Navbar Part ............................ -->
+    <nav class="w-11/12 mx-auto my-2 sticky top-0 shadow-2xl bg-slate-50 z-30">
         
         <div class= "flex items-center justify-between">
             <div class="flex items-center cursor-pointer">
-                <img class="w-10 sm:w-20" src="images/logo/logo.png" alt="">
-                <h2 class="font-bold">Course.io</h2>
+                <img class="w-12 sm:w-20" src="images/logo/logo.png" alt="">
+                <h2 class="font-bold hidden lg:block">Course.io</h2>
             </div>
             <div class=" hidden md:w-[300px] sm:mr-3 sm:flex justify-between items-center rounded-2xl border-2">
                 <input class=" py-2 outline-none px-5" type="text" placeholder="search for course">
@@ -41,8 +42,10 @@
         </div>
     </nav>
 
-    <header class="max-w-[1300px] mx-auto">
-        <div class="hero h-[450px]" style="background-image: url(https://res.cloudinary.com/dgamcpb88/image/upload/v1723280599/Course%20management/ehtrr68mx23tg9edg9bx.jpg);">
+
+    <!-- ..............................Header Part................... -->
+    <header class="w-11/12 mx-auto">
+        <div class="hero h-[550px]" style="background-image: url(https://res.cloudinary.com/dgamcpb88/image/upload/v1723280599/Course%20management/ehtrr68mx23tg9edg9bx.jpg);">
             <div class="hero-overlay bg-opacity-60"></div>
            <div class="hero-content text-neutral-content text-center">
                 <div class="max-w-md">
@@ -68,25 +71,26 @@
         </div>
     </header>
 
-    <div class="max-w-[1300px] mx-auto sm:flex sm:flex-wrap gap-2 my-14 cursor-pointer">
-        <h1 class="border border-green-400 rounded-xl text-green-400 py-2 px-4 mb-3 text-center">All Recommendation</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Adobe Illustrator</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Adobe Photoshop</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">UI Design</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Web Programming</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Mobile Programming</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Backend Development</h1>
-        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center">Vue JS</h1>
+    <div class="w-11/12 mx-auto sm:flex sm:flex-wrap gap-2 my-14 cursor-pointer">
+        <h1 class="border border-green-400 rounded-xl text-green-400 py-2 px-4 mb-3 text-center mx-2">All Recommendation</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Adobe Illustrator</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Adobe Photoshop</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">UI Design</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Web Programming</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Mobile Programming</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Backend Development</h1>
+        <h1 class="border rounded-xl py-2 px-4 mb-3 text-center mx-2">Vue JS</h1>
     </div>
 
-    <main class="max-w-[1300px] mx-auto">
+    <main class="w-11/12 mx-auto">
+        <!-- Kitani Studio Part -->
         <section>    
-            <div>
+            <div class="mx-2">
                 <h3 class="text-xl font-bold">More from Kitani Studio</h3>
                 <p class="mb-4 text-gray-500">We know the best things for You.  Top picks for You.</p>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-4 lg:gap-10">
+                <div class="sm:w-80  p-3 rounded-lg my-4 hover:shadow-2xl">
                     <img class="w-full" src="images/course/Placeholder 1.jpg" alt="">
                     <h2 class="font-bold my-2">VUE JS SCRATCH COURSE</h2>
                     <div class="flex items-center gap-3 my-2">
@@ -179,7 +183,302 @@
         </section>
 
 
-        <!-- 2nd file || paid ofline video-1 -->
+        <!-- ....................Trending Courses.............................. -->
+
+        <section class="my-10">    
+            <div class="mx-2">
+                <h3 class="text-xl font-bold">Trending Course</h3>
+                <p class="mb-4 text-gray-500">We know the best things for You.  Top picks for You.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-4 lg:gap-10">
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 5.jpg" alt="">
+                    <h2 class="font-bold my-2">Adobe Illustrator Scretch Course</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$54.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 6.jpg" alt="">
+                    <h2 class="font-bold my-2">Bootcamp  Vue.js Web Framework</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">Learn how to make web application with Vue.js Framework.</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$84.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 7.jpg" alt="">
+                    <h2 class="font-bold my-2">Design Fundamentals</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$334.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 8.jpg" alt="">
+                    <h2 class="font-bold my-2">Ionic - Build iOS, Android & Web...</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$74.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 9.jpg" alt="">
+                    <h2 class="font-bold my-2">Adobe Illustrator Scretch Course</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$14.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 10.jpg" alt="">
+                    <h2 class="font-bold my-2">Bootcamp  Vue.js Web Framework</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">Learn how to make web application with Vue.js Framework.</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$24.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 12.jpg" alt="">
+                    <h2 class="font-bold my-2">Design Fundamentals</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$74.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+
+                <div class="sm:w-80 p-3 rounded-lg my-4 hover:shadow-2xl">
+                    <img class="w-full" src="images/course/Placeholder 3.jpg" alt="">
+                    <h2 class="font-bold my-2">Ionic - Build iOS, Android & Web...</h2>
+                    <div class="flex items-center gap-3 my-2">
+                        <i class="fa-regular fa-user"></i>
+                        <h4 class="text-[#3DCBB1]">Kitani Studio</h4>
+                    </div>
+                    <p class="my-2">More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now...</p>
+                    <div class="text-[#FFD130] my-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <span class="text-black">(1.2K)</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <h3>$254.92</h3>
+                        <span class="line-through">$32.90</span>
+                    </div>
+                </div>
+            </div>
+                
+            
+        </section>
+
+        
+        <!-- ................Popular Instructor..................... -->
+        <section>
+            <div class="mx-2">
+                <h3 class="text-xl font-bold">Popular Instructor</h3>
+                <p class="mb-4 text-gray-500">We know the best things for You.  Top picks for You.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-6 lg:gap-10 mx-2">
+                <div class="hero w-full sm:w-72 h-[350px] my-10 bg-cover bg-no-repeat  rounded-2xl" style="background-image: url('images/instructor/man1.jpg');">
+                    <div class="hero-overlay bg-opacity-10  rounded-2xl"></div>
+                    <h2 class="text-white text-center pt-48 text-2xl font-bold">Alexander Bastian</h2>
+                    <p class="pt-64 text-center text-white">Expert Mobile Engineer</p>
+                </div>
+
+                <div class="hero w-full sm:w-72 h-[350px] my-10 bg-cover bg-no-repeat  rounded-2xl" style="background-image: url('images/instructor/girl.jpg');">
+                    <div class="hero-overlay bg-opacity-10  rounded-2xl"></div>
+                    <h2 class="text-white text-center pt-48 text-2xl font-bold">Labie Carthaline</h2>
+                    <p class="pt-64 text-center text-white">Marketing Specialist</p>
+                </div>
+
+                <div class="hero w-full sm:w-72 h-[350px] my-10 bg-cover bg-no-repeat  rounded-2xl" style="background-image: url('images/instructor/man.jpg');">
+                    <div class="hero-overlay bg-opacity-10  rounded-2xl"></div>
+                    <h2 class="text-white text-center pt-48 text-2xl font-bold">Jonathan Doe</h2>
+                    <p class="pt-64 text-center text-white">Financial Strategiest</p>
+                </div>
+
+                <div class="hero w-full sm:w-72 h-[350px] my-10 bg-cover bg-no-repeat  rounded-2xl" style="background-image: url('images/instructor/girl1.jpg');">
+                    <div class="hero-overlay bg-opacity-10  rounded-2xl"></div>
+                    <h2 class="text-white text-center pt-48 text-2xl font-bold">Kitani Sarasvati</h2>
+                    <p class="pt-64 text-center text-white">Film Maker & Director</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- video section start -->
+       <section class="flex flex-col lg:flex lg:flex-row gap-8 my-10 px-3 ">
+         <!-- 1st div -->
+         <div>
+            <img class="h-[600px]" src="images/chat_image/Video.png" alt="">
+        </div>
+
+        <!-- 2nd div -->
+        <div class=" bg-[#F9F9F9] px-12  py-8 rounded-lg">
+            <h2 class="font-bold text-2xl">Live Chat Webinar</h2>
+            <p class="text-[#3DCBB1] text-xl font-semibold mb-8">241 Active users</p>
+
+            
+                <div class="flex gap-3 items-center mb-3">
+                    <div>
+                        <img class="w-10 h-10 rounded" src="images/chat_image/chat1.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold">Addison rae</h2>
+                        <p class="text-lg" >​is anyone else learning english?</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-3 items-center mb-3">
+                    <div>
+                        <img class="w-10 h-10 rounded" src="images/chat_image/chat2.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold">Crystal moon</h2>
+                        <p class="text-lg" >Everything works well</p>
+                    </div>
+                </div>
+                <div class="flex gap-3 items-center mb-3">
+                    <div>
+                        <img class="w-10 h-10 rounded" src="images/chat_image/chat3.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold">Zyon Brown</h2>
+                        <p class="text-lg" >​Nice One</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-3 items-center mb-3">
+                    <div>
+                        <img class="w-10 h-10 rounded" src="images/chat_image/chat4.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold">Galaxa</h2>
+                        <p class="text-lg" ><span class="text-[#4BC0D0]">@Galaxa</span> Yeah me too. this is just to good.</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-3 items-center mb-3">
+                    <div>
+                        <img class="w-10 h-10 rounded" src="images/chat_image/chat2.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-bold">Crystal moon</h2>
+                        <p class="text-lg" ><span class="text-[#4BC0D0]">@Addison</span>  rae yow youre not alone, me too here</p>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="input input-bordered flex items-center gap-2 flex justify-between px-3">
+                        <input class="text-xl" type="text" class="grow" placeholder="Ask Something..." />
+                        <img  src="images/chat_image/send_24px@2x.png" alt="">
+                      </label>
+                </div>
+            
+           
+        </div>
+       </section>
+      
+       <!-- 2nd file || paid ofline video-1 -->
          <section class="mt-20">
             <!-- main section  -->
             <section class="flex flex-col items-center lg:flex-row  gap-x-5 gap-y-5">
@@ -290,8 +589,82 @@
                     </div>
                 </div>
             </section>
+<<<<<<< HEAD
 
          </section>
+=======
+      
+      
+        <!-- video section end -->
+
+      <section class="my-10 h-72 md:h-48 bg-gradient-to-r mx-2 from-cyan-500 to-blue-500 rounded">
+            <div class="md:flex justify-evenly px-4 py-4 md:gap-4 sm:pt-12">
+                <div>
+                    <h1 class="text-2xl text-white mb-1 font-semibold">Join and get amazing discount</h1>
+                    <p class="text-gray-500">With our responsive themes and mobile and desktop apps</p>
+                </div>
+
+                <label class="input input-bordered w-64 flex items-center gap-2 bg-slate-300 mt-4">
+                    <input type="text" class="grow" placeholder="Email Address" />
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        fill="currentColor"
+                        class="h-4 w-4 opacity-70">
+                        <path
+                        fill-rule="evenodd"
+                        d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                        clip-rule="evenodd" />
+                    </svg>
+                </label>
+
+                <div class="mt-4">
+                    <button class="bg-green-600 hover:bg-green-400 md:ml-3 text-white px-10 py-3 rounded-lg font-semibold">Subscribe<button>
+                </div>
+            </div>
+        </section>
+
+>>>>>>> 260f1f1aba1a51591f9c5c55c0a90406aa700be5
     </main>
+
+    <!-- ---------------------------- Footer Part Start.......................... -->
+    <!-- <footer class=" my-16  h-96 bg-black">
+        <div class="flex justify-evenly items-center pt-28 text-white">
+            <div class="flex items-center">
+                <img class="w-20" src="images/logo/logo.png" alt="">
+                <h2>MyCourse.io</h2>
+            </div>
+
+            <div class="flex gap-32">
+                <div>
+                    <h2>Web Programming</h2>
+                    <h2>Mobile Programming</h2>
+                    <h2>Java Beginner</h2>
+                    <h2>PHP Beginner</h2>
+                </div>
+
+                <div>
+                    <h2>Adobe Illustrator</h2>
+                    <h2>Adobe Photoshop</h2>
+                    <h2>Design Logo</h2>
+                </div>
+
+                <div>
+                    <h2>Writing Course</h2>
+                    <h2>Photography</h2>
+                    <h2>Video Making</h2>
+                </div>
+            </div>
+        </div>
+        <hr class="max-w-[1300px] mt-16 mx-auto text-white">
+        <div class="flex justify-around text-white mt-3">
+            <p>Copyright © MyCourse.io 2024. All Rights Reserved</p>
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </div>
+    </footer> -->
 </body>
 </html>
