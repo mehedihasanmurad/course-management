@@ -180,77 +180,116 @@
 
 
         <!-- 2nd file || paid ofline video-1 -->
-         <section class="mt-52">
-            <!-- nav section  -->
-            <nav class="px-5 md:px20 lg:px-28 border-t mb-5 bg-white drop-shadow-md">
-
-                <div class="navbar bg-base-100">
-                    <div class="flex flex-1 space-x-3 md:space-x-5">
-                        <div class="flex justify-start items-center space-x-2">
-                            <img class="w-8 md:w-full" src="images/Navbar/Light/Frame 44.jpg" alt="">
-                            <a class=" text-sm md:text-xl font-bold">MyCourse.io</a>
-                        </div>
-                        
-                        <div>
-                            <ul class="menu menu-horizontal ">
-                                <li>
-                                <details class="hidden lg:inline-flex">
-                                    <summary class="text-xl ">Browse</summary>
-                                    <ul class="bg-base-100 rounded-t-none">
-                                    <li><a>Browse-1</a></li>
-                                    <li><a>Browse-2</a></li>
-                                    </ul>
-                                </details>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                   
-                    <div class=" flex flex-1 ml-5 md:ml-0  justify-end relative border-2 md:p-2 bg-gray-50 rounded">
-                            <input class="w-full  outline-none bg-gray-50 " type="text" placeholder="Search" md:placeholder="Search for course" />
-                            <i class="fa-solid fa-magnifying-glass absolute md:top-3 right-0 md:right-2"></i>
-                    </div>
-
-                    <div class="flex flex-1 font-medium justify-end space-x-2 md:space-x-5 items-center rounded-full">
-                        <p class="hidden lg:inline-flex">Become Instructor</p>
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5 hidden md:inline-flex"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                      </svg>
-                      <button class="">
-                        <div class="indicator">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                          </svg>
-                        </div>
-                      </button>
-                        <img
-                          alt="Tailwind CSS Navbar component"
-                          src="images/Navbar/Light/Mask Group.jpg" />
-                    </div>
-                    
-                </div>
-
-            </nav>
+         <section class="mt-20">
             <!-- main section  -->
+            <section class="flex items-center gap-x-5">
+                <div>
+                    <img src="images/Card/Placeholder 1.png" alt="">
+                </div>
+                <div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            <div class="font-bold">
+                                Chapter 1: Course Overview
+                            </div>
+                            <div class="text-sm text-gray-400 flex gap-4">
+                                <h5>1/12 Videos </h5>
+                                <p class="text-emerald-400">28m</p>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="collapse-content">
+                          <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" checked="checked"  />
+                        <div class="collapse-title text-xl font-medium">
+                            <div class="font-bold">
+                                Chapter 2: Curriculum
+                            </div>
+                            <div class="text-sm text-gray-400 flex gap-4">
+                                <h5>1/12 Videos </h5>
+                                <p class="text-emerald-400 ">1h 28m</p>
+                                
+                            </div>
+                        </div>
+                        <div class="collapse-content">
+                            <div class="flex justify-between font-medium shadow-sm pt-2">
+                                <div>
+                                    <h5>Installing Vue JS</h5>
+                                    <div class="flex items-center gap-x-4">
+                                    <i class="fa-solid fa-circle-play text-emerald-400 "></i>
+                                    <p class="text-emerald-400 ">10m</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="p-2 text-white text-sm bg-emerald-400 rounded">
+                                        Completed
+                                    </button>
+                                </div>
+                            </div>
 
+                          <div class="flex justify-between font-medium shadow-sm pt-2">
+                                <div>
+                                    <h5>Understand Vue Components</h5>
+                                    <div class="flex items-center gap-x-4">
+                                    <i class="fa-solid fa-circle-play text-emerald-400 "></i>
+                                    <p class="text-red-400 ">59m</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="p-2 text-white bg-red-500 text-sm rounded">
+                                        Playing
+                                    </button>
+                                </div>
+                            </div>
+
+                          <div class="flex justify-between font-medium shadow-sm pt-2">
+                                <div>
+                                    <h5>Vue Templating</h5>
+                                    <i class="fa-solid fa-circle-play text-gray-300 "></i>
+                                </div>
+                            </div>
+
+                            <div class="flex justify-between font-medium shadow-sm pt-2">
+                                <div>
+                                    <h5>Vue Forms</h5>
+                                    <i class="fa-solid fa-circle-play text-gray-300 "></i>
+                                </div>
+                            </div>
+
+                            
+                            <div class="flex justify-between font-medium shadow-sm pt-2">
+                                <div>
+                                    <h5>Vue Animation</h5>
+                                <i class="fa-solid fa-circle-play text-gray-300 "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            <div class="font-bold">
+                                Chapter 3: Components
+                            </div>
+                            <div class="text-sm text-gray-400 flex gap-4">
+                                <h5>1/12 Videos </h5>
+                                <p class="text-emerald-400">28m</p>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="collapse-content">
+                          <p>End</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
          </section>
     </main>
 </body>
